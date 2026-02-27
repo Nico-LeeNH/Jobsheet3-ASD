@@ -48,6 +48,11 @@ public class DosenDemo20 {
             System.out.println("-----------------------");
 
         }
+        DataDosen20.dataSemuaDosen(arrayOfDosen20);
+        DataDosen20.jumlahDosenPerJenisKelamin(arrayOfDosen20);
+        DataDosen20.rerataUsiaDosenPerJenisKelamin(arrayOfDosen20);
+        DataDosen20.infoDosenPalingTua(arrayOfDosen20);
+        DataDosen20.infoDosenPalingMuda(arrayOfDosen20);
         sc.close();
     }
 }
